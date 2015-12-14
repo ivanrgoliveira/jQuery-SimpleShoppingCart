@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>House of Kaizen</title>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/shoppingcart.css">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.3.min.js"><\/script>')</script>
+
+    <script src="js/shoppingcart.js"></script>
+</head>
+<body>
+    <div id="HouseOfKaizen" class="cf">
+        <div id="title-and-cart" class="cf">
+            <div id="title">
+                <h1>House of Kaizen Catalogue</h1>
+            </div>
+            <div id="cart" class="cf">
+                <div id="cart-image">
+                    <img src="img/cart.png" alt="Shopping Cart" />
+                </div>
+                <div id="cart-items">
+                    <span id="number-of-items">0 items</span><br />
+                    <span id="total">&pound; 0.00</span></div>
+                <div id="cart-view"><a href="#item-cart" name="view-cart">View cart</a></div>
+            </div>
+        </div>
+        <div id="items"></div>
+        <div id="IvanOliveira">
+            Created by <a href="https://github.com/ivanrgoliveira" target="_blank">Ivan Oliveira</a>
+        </div>
+    </div>
+
+    <!-- Modal window for the cart -->
+    <div id="mask" class="close"></div>
+    <div id="item-cart" class="cart-window cf">
+        <h2>Your items:</h2>
+        <a href="" class="close button">X</a>
+        <div id="cart-statement" class="cf"></div>
+    </div>
+
+    <!-- END of modal window for the cart -->
+</body>
+</html>

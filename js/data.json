@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "title": "It Started With A Kiss",
+            "description": "Out for a jog one Saturday afternoon, Georgie Bird is greeted by two things she never expected to see...",
+            "price": "2.99",
+            "image_url": "http://ecx.images-amazon.com/images/I/51JuKXuFIwL._AA160_.jpg"
+        },
+        {
+            "title": "Us",
+            "description": "The much-anticipated new novel from David Nicholls, author of the multimillion-copy bestseller, One Day.",
+            "price": "1.99",
+            "image_url": "http://ecx.images-amazon.com/images/I/41GYizgP2yL._AA160_.jpg"
+        },
+        {
+            "title": "The Hundred-Year-Old Man Who Climbed Out of the Window and Disappeared",
+            "description": "'Imaginative, laugh-out-loud bestseller' The Telegraph",
+            "price": "5.00",
+            "image_url": "http://ecx.images-amazon.com/images/I/519LAdB3XPL._AA160_.jpg"
+        },
+        {
+            "title": "Elizabeth is Missing",
+            "description": "The novel is both a gripping detective yarn and a haunting depiction of mental illness...",
+            "price": "2.99",
+            "image_url": "http://ecx.images-amazon.com/images/I/51jJw2GNtkL._AA160_.jpg"
+        }
+    ]
+}
