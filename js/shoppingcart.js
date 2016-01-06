@@ -1,7 +1,7 @@
 /**
  * Created by Ivan Oliveira
  */
-'use strict';
+"use strict";
 
 var IvanShoppingCart = (function () {
 
